@@ -1,0 +1,38 @@
+print("1) First number \n2) Sign \n3) Second number ")
+choose1 = input()
+choose2 = input()
+choose3 = input()
+while True:
+    if choose2 == "+" :
+        result = int(choose1) + int(choose3)
+        textresult = "Result = " + str(result)
+        print(textresult)
+        choose1 = input()
+        choose2 = input()
+        choose3 = input()
+    elif choose2 == "-" :
+        result = int(choose1) - int(choose3)
+        textresult = "Result = " + str(result)
+        print(textresult)
+        choose1 = input()
+        choose2 = input()
+        choose3 = input()
+    elif choose2 == "*" :
+        result = int(choose1) * int(choose3)
+        textresult = "Result = " + str(result)
+        print(textresult)
+        choose1 = input()
+        choose2 = input()
+        choose3 = input()
+    elif choose2 == "/" :
+        result = int(choose1) / int(choose3)
+        textresult = "Result = " + str(result)
+        print(textresult)
+        choose1 = input()
+        choose2 = input()
+        choose3 = input()
+    elif choose2 == "/" and choose3 == "0" :
+        print("Sorry. Thats immposible")
+        choose1 = input()
+        choose2 = input()
+        choose3 = input()
