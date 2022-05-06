@@ -60,10 +60,14 @@ class Job:
         self.glandess_less = job_list[self.job]["gladness_less"]
 
 brands_of_car = {
-    "BWM": {"color":"Black"} 
+    "BWM": {"color":"Black"},
+    "Lade": {"color":"Gray"},
+    "Ferrari": {"color":"Yellow"},
+    "Volvo": {"color":"Blue"},
 }
 
 job_list = {
     "Python Developer": {"salary":40,"glandess_less":3},
-    "Teacher": {"salary":25, "glandess_less":30}
+    "Teacher": {"salary":25, "glandess_less":25},
+    "Game Developer": {"salary":35,"glandess_less":30},
 }
